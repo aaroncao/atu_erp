@@ -27,7 +27,7 @@ public class BaseController {
 	protected void setExceptionResult(Result Result){
 		Result.setSuccess(false);
 		Result.setResultCode("500");
-		Result.setResultMessage("服务异常，请稍后重试");
+		Result.setResultMessage("服务异常，请稍后重试1");
 	}
 	
 	protected void setSuccessResult(Result Result){
