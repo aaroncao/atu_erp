@@ -8,7 +8,7 @@ import com.atu.erp.common.utils.MD5Util;
 public class HttpTest {
 	private static String secret = "d18ed7feb9db4621b95da86943f7717f";
 	public static void main(String[] args) {
-		String demo = "http://127.0.0.1/demo/aaa";
+		String demo = "http://127.0.0.1/demo/aaabbb";
 		System.out.println(HttpUtils.httpPostData(demo, getSign(), null));
 	}
 	
