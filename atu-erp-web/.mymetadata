@@ -3,7 +3,7 @@
   type="WEB"
   name="atu-erp-web"
   id="myeclipse.1439354844870"
-  context-root="/"
+  context-root="/atu-erp-web"
   j2ee-spec="6.0"
   archive="atu-erp-web.war">
   <attributes>
